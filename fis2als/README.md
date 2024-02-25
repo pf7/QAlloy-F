@@ -8,15 +8,16 @@ Consider the ```Heater.fis``` provided in this folder. To obtain the associated 
 ```
 java -jar fis2als.jar Heater.fis
 ```
-which will create a ```Heater.als``` file in the directory where the original .fis file provided is located. In particular, the QAlloy model generated is analogous to the one provided at [*heater.als*](https://github.com/pf7/QAlloy-F/blob/main/benchmark/heater.als).
+which will create a ```Heater.als``` file in the directory where the original .fis file is located. In particular, the QAlloy model generated for this example is analogous to the one provided at [*benchmark/heater.als*](https://github.com/pf7/QAlloy-F/blob/main/benchmark/heater.als).
 
 ## FIS Details
 
 Currently the prototype does not support every single possible configuration, but those abiding to the listed characteristics.
 - Must be of type *Mamdani* FIS.
-- The triangular norms provided by QAlloy encapsulate both t-norm and respective t-conorm, meaning that the ```AndMethod``` and ```OrMethod``` should specify a t-norm supported by QAlloy accordingly. For example, the *Product* t-norm is described by ```AndMethod='prod'``` and ```OrMethod='probor'```. When that is not the case, FIS2ALS will default to a supported t-norm when generating the .als specification, and warn the user.
+- The triangular norms provided by QAlloy encapsulate both t-norm and respective t-conorm, meaning that the ```AndMethod``` and ```OrMethod``` should specify a t-norm supported by QAlloy accordingly. For example, the *Product* t-norm is described by ```AndMethod='prod'``` and ```OrMethod='probor'```. When that is not the case, FIS2ALS will default to a supported t-norm (usually according to the ```AndMethod``` specified) when generating the .als specification, and warn the user.
 - ```AggMethod``` should coincide with ```OrMethod```.
-- Its rule base must be AND-based (i.e., every rule is connected through 'And').
+- Both implication methods (```ImpMethod='min'``` or ```='prod'```) are supported.
+- Its rule base must be AND-based (i.e., the antecedent of every rule is connected through fuzzy logic 'And').
 - Membership functions currently supported: triangular ```trimf```, trapezoidal ```trapmf```, linear z-shape ```linzmf``` and linear s-shape ```linsmf```.
 - The parameters of the specified membership functions must be within the respective variable's range. For example, if a variable is declared with range ```[10,30]```, the membership function ```trimf[0 5 15]``` is not allowed.
 
