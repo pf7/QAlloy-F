@@ -1,0 +1,42 @@
+[System]
+Name='Heater'
+Type='mamdani'
+Version=2.0
+NumInputs=2
+NumOutputs=1
+NumRules=4
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='som'
+
+[Input1]
+Name='Temperature'
+Range=[-20 50]
+NumMFs=3
+MF1='cold':'linzmf',[-5 10]
+MF2='warm':'trapmf',[5 20 30 40]
+MF3='hot':'linsmf',[30 40]
+
+[Input2]
+Name='Humidity'
+Range=[0 1]
+NumMFs=3
+MF1='dry':'linzmf',[0 0.5]
+MF2='normal':'trimf',[0.25 0.5 0.75]
+MF3='wet':'linsmf',[0.5 1]
+
+[Output1]
+Name='Heater'
+Range=[0 1]
+NumMFs=3
+MF1='low':'linzmf',[0 0.3]
+MF2='mid':'trimf',[0.25 0.5 0.75]
+MF3='high':'linsmf',[0.7 1]
+
+[Rules]
+1 3, 3 (1) : 1
+1 1, 2 (1) : 1
+2 2, 1 (1) : 1
+3 1, 1 (1) : 1
