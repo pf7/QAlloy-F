@@ -1,0 +1,137 @@
+Command, Solver, T-norm, Response Time(ms)
+Run two_diagnosis for 1 Patient, z3, Godelian, 951
+Run two_diagnosis for 1 Patient, z3, Godelian, 921
+Run two_diagnosis for 1 Patient, z3, Godelian, 925
+Run two_diagnosis for 1 Patient, z3, Godelian, 925
+Run two_diagnosis for 1 Patient, z3, Godelian, 893
+Run same_diagnosis for 2 Patient, z3, Godelian, 16443
+Run same_diagnosis for 2 Patient, z3, Godelian, 16382
+Run same_diagnosis for 2 Patient, z3, Godelian, 16388
+Run same_diagnosis for 2 Patient, z3, Godelian, 16424
+Run same_diagnosis for 2 Patient, z3, Godelian, 16375
+Check maxChestPain for 1, z3, Godelian, 481
+Check maxChestPain for 1, z3, Godelian, 482
+Check maxChestPain for 1, z3, Godelian, 480
+Check maxChestPain for 1, z3, Godelian, 471
+Check maxChestPain for 1, z3, Godelian, 480
+Run two_diagnosis for 1 Patient, z3, Lukasiewicz, 15186
+Run two_diagnosis for 1 Patient, z3, Lukasiewicz, 15169
+Run two_diagnosis for 1 Patient, z3, Lukasiewicz, 15177
+Run two_diagnosis for 1 Patient, z3, Lukasiewicz, 15172
+Run two_diagnosis for 1 Patient, z3, Lukasiewicz, 15173
+Run same_diagnosis for 2 Patient, z3, Lukasiewicz, 17284
+Run same_diagnosis for 2 Patient, z3, Lukasiewicz, 17264
+Run same_diagnosis for 2 Patient, z3, Lukasiewicz, 17258
+Run same_diagnosis for 2 Patient, z3, Lukasiewicz, 17279
+Run same_diagnosis for 2 Patient, z3, Lukasiewicz, 17296
+Check maxChestPain for 1, z3, Lukasiewicz, 15321
+Check maxChestPain for 1, z3, Lukasiewicz, 15295
+Check maxChestPain for 1, z3, Lukasiewicz, 15304
+Check maxChestPain for 1, z3, Lukasiewicz, 15302
+Check maxChestPain for 1, z3, Lukasiewicz, 15307
+Run two_diagnosis for 1 Patient, z3, Product, timeout
+Run same_diagnosis for 2 Patient, z3, Product, timeout
+Check maxChestPain for 1, z3, Product, timeout
+Run two_diagnosis for 1 Patient, mathsat, Godelian, 748
+Run two_diagnosis for 1 Patient, mathsat, Godelian, 707
+Run two_diagnosis for 1 Patient, mathsat, Godelian, 761
+Run two_diagnosis for 1 Patient, mathsat, Godelian, 708
+Run two_diagnosis for 1 Patient, mathsat, Godelian, 706
+Run same_diagnosis for 2 Patient, mathsat, Godelian, 11223
+Run same_diagnosis for 2 Patient, mathsat, Godelian, 11244
+Run same_diagnosis for 2 Patient, mathsat, Godelian, 11251
+Run same_diagnosis for 2 Patient, mathsat, Godelian, 11277
+Run same_diagnosis for 2 Patient, mathsat, Godelian, 11279
+Check maxChestPain for 1, mathsat, Godelian, 424
+Check maxChestPain for 1, mathsat, Godelian, 423
+Check maxChestPain for 1, mathsat, Godelian, 424
+Check maxChestPain for 1, mathsat, Godelian, 423
+Check maxChestPain for 1, mathsat, Godelian, 423
+Run two_diagnosis for 1 Patient, mathsat, Lukasiewicz, 100
+Run two_diagnosis for 1 Patient, mathsat, Lukasiewicz, 101
+Run two_diagnosis for 1 Patient, mathsat, Lukasiewicz, 98
+Run two_diagnosis for 1 Patient, mathsat, Lukasiewicz, 99
+Run two_diagnosis for 1 Patient, mathsat, Lukasiewicz, 99
+Run same_diagnosis for 2 Patient, mathsat, Lukasiewicz, 198
+Run same_diagnosis for 2 Patient, mathsat, Lukasiewicz, 196
+Run same_diagnosis for 2 Patient, mathsat, Lukasiewicz, 198
+Run same_diagnosis for 2 Patient, mathsat, Lukasiewicz, 203
+Run same_diagnosis for 2 Patient, mathsat, Lukasiewicz, 197
+Check maxChestPain for 1, mathsat, Lukasiewicz, 91
+Check maxChestPain for 1, mathsat, Lukasiewicz, 95
+Check maxChestPain for 1, mathsat, Lukasiewicz, 96
+Check maxChestPain for 1, mathsat, Lukasiewicz, 99
+Check maxChestPain for 1, mathsat, Lukasiewicz, 103
+Run two_diagnosis for 1 Patient, mathsat, Product, 3325
+Run two_diagnosis for 1 Patient, mathsat, Product, 3269
+Run two_diagnosis for 1 Patient, mathsat, Product, 3300
+Run two_diagnosis for 1 Patient, mathsat, Product, 3355
+Run two_diagnosis for 1 Patient, mathsat, Product, 3278
+Run same_diagnosis for 2 Patient, mathsat, Product, timeout
+Check maxChestPain for 1, mathsat, Product, timeout
+Run two_diagnosis for 1 Patient, cvc4, Godelian, 1131
+Run two_diagnosis for 1 Patient, cvc4, Godelian, 1114
+Run two_diagnosis for 1 Patient, cvc4, Godelian, 1114
+Run two_diagnosis for 1 Patient, cvc4, Godelian, 1116
+Run two_diagnosis for 1 Patient, cvc4, Godelian, 1108
+Run same_diagnosis for 2 Patient, cvc4, Godelian, 20648
+Run same_diagnosis for 2 Patient, cvc4, Godelian, 20751
+Run same_diagnosis for 2 Patient, cvc4, Godelian, 20498
+Run same_diagnosis for 2 Patient, cvc4, Godelian, 20490
+Run same_diagnosis for 2 Patient, cvc4, Godelian, 20456
+Check maxChestPain for 1, cvc4, Godelian, 1506
+Check maxChestPain for 1, cvc4, Godelian, 1501
+Check maxChestPain for 1, cvc4, Godelian, 1518
+Check maxChestPain for 1, cvc4, Godelian, 1487
+Check maxChestPain for 1, cvc4, Godelian, 1503
+Run two_diagnosis for 1 Patient, cvc4, Lukasiewicz, 393
+Run two_diagnosis for 1 Patient, cvc4, Lukasiewicz, 379
+Run two_diagnosis for 1 Patient, cvc4, Lukasiewicz, 376
+Run two_diagnosis for 1 Patient, cvc4, Lukasiewicz, 377
+Run two_diagnosis for 1 Patient, cvc4, Lukasiewicz, 399
+Run same_diagnosis for 2 Patient, cvc4, Lukasiewicz, 2474
+Run same_diagnosis for 2 Patient, cvc4, Lukasiewicz, 2441
+Run same_diagnosis for 2 Patient, cvc4, Lukasiewicz, 2433
+Run same_diagnosis for 2 Patient, cvc4, Lukasiewicz, 2431
+Run same_diagnosis for 2 Patient, cvc4, Lukasiewicz, 2460
+Check maxChestPain for 1, cvc4, Lukasiewicz, 614
+Check maxChestPain for 1, cvc4, Lukasiewicz, 604
+Check maxChestPain for 1, cvc4, Lukasiewicz, 609
+Check maxChestPain for 1, cvc4, Lukasiewicz, 611
+Check maxChestPain for 1, cvc4, Lukasiewicz, 617
+Run two_diagnosis for 1 Patient, cvc4, Product, timeout
+Run same_diagnosis for 2 Patient, cvc4, Product, timeout
+Check maxChestPain for 1, cvc4, Product, timeout
+Run two_diagnosis for 1 Patient, yices, Godelian, 14137
+Run two_diagnosis for 1 Patient, yices, Godelian, 14168
+Run two_diagnosis for 1 Patient, yices, Godelian, 14026
+Run two_diagnosis for 1 Patient, yices, Godelian, 13942
+Run two_diagnosis for 1 Patient, yices, Godelian, 14035
+Run same_diagnosis for 2 Patient, yices, Godelian, 294206
+Run same_diagnosis for 2 Patient, yices, Godelian, 295374
+Run same_diagnosis for 2 Patient, yices, Godelian, 293433
+Run same_diagnosis for 2 Patient, yices, Godelian, 292670
+Run same_diagnosis for 2 Patient, yices, Godelian, 291382
+Check maxChestPain for 1, yices, Godelian, 14488
+Check maxChestPain for 1, yices, Godelian, 14450
+Check maxChestPain for 1, yices, Godelian, 14454
+Check maxChestPain for 1, yices, Godelian, 14488
+Check maxChestPain for 1, yices, Godelian, 14394
+Run two_diagnosis for 1 Patient, yices, Lukasiewicz, 5003
+Run two_diagnosis for 1 Patient, yices, Lukasiewicz, 4923
+Run two_diagnosis for 1 Patient, yices, Lukasiewicz, 5014
+Run two_diagnosis for 1 Patient, yices, Lukasiewicz, 4917
+Run two_diagnosis for 1 Patient, yices, Lukasiewicz, 4962
+Run same_diagnosis for 2 Patient, yices, Lukasiewicz, 259200
+Run same_diagnosis for 2 Patient, yices, Lukasiewicz, 258251
+Run same_diagnosis for 2 Patient, yices, Lukasiewicz, 257765
+Run same_diagnosis for 2 Patient, yices, Lukasiewicz, 261387
+Run same_diagnosis for 2 Patient, yices, Lukasiewicz, 258367
+Check maxChestPain for 1, yices, Lukasiewicz, 8738
+Check maxChestPain for 1, yices, Lukasiewicz, 8772
+Check maxChestPain for 1, yices, Lukasiewicz, 8765
+Check maxChestPain for 1, yices, Lukasiewicz, 8738
+Check maxChestPain for 1, yices, Lukasiewicz, 8695
+Run two_diagnosis for 1 Patient, yices, Product, timeout
+Run same_diagnosis for 2 Patient, yices, Product, timeout
+Check maxChestPain for 1, yices, Product, timeout

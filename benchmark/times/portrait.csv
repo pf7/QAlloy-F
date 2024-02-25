@@ -1,0 +1,121 @@
+Command, Solver, T-norm, Response Time(ms)
+Run threeToTwo for exactly 6 Portrait, z3, Godelian, 776
+Run threeToTwo for exactly 6 Portrait, z3, Godelian, 698
+Run threeToTwo for exactly 6 Portrait, z3, Godelian, 718
+Run threeToTwo for exactly 6 Portrait, z3, Godelian, 714
+Run threeToTwo for exactly 6 Portrait, z3, Godelian, 682
+Check invProportionality for 4 Portrait, z3, Godelian, 1308
+Check invProportionality for 4 Portrait, z3, Godelian, 1303
+Check invProportionality for 4 Portrait, z3, Godelian, 1304
+Check invProportionality for 4 Portrait, z3, Godelian, 1328
+Check invProportionality for 4 Portrait, z3, Godelian, 1322
+Run threeToTwo for exactly 6 Portrait, z3, Lukasiewicz, 684
+Run threeToTwo for exactly 6 Portrait, z3, Lukasiewicz, 683
+Run threeToTwo for exactly 6 Portrait, z3, Lukasiewicz, 668
+Run threeToTwo for exactly 6 Portrait, z3, Lukasiewicz, 696
+Run threeToTwo for exactly 6 Portrait, z3, Lukasiewicz, 664
+Check invProportionality for 4 Portrait, z3, Lukasiewicz, 2333
+Check invProportionality for 4 Portrait, z3, Lukasiewicz, 2299
+Check invProportionality for 4 Portrait, z3, Lukasiewicz, 2309
+Check invProportionality for 4 Portrait, z3, Lukasiewicz, 2335
+Check invProportionality for 4 Portrait, z3, Lukasiewicz, 2330
+Run threeToTwo for exactly 6 Portrait, z3, Product, 667
+Run threeToTwo for exactly 6 Portrait, z3, Product, 665
+Run threeToTwo for exactly 6 Portrait, z3, Product, 675
+Run threeToTwo for exactly 6 Portrait, z3, Product, 689
+Run threeToTwo for exactly 6 Portrait, z3, Product, 663
+Check invProportionality for 4 Portrait, z3, Product, 296
+Check invProportionality for 4 Portrait, z3, Product, 305
+Check invProportionality for 4 Portrait, z3, Product, 298
+Check invProportionality for 4 Portrait, z3, Product, 310
+Check invProportionality for 4 Portrait, z3, Product, 300
+Run threeToTwo for exactly 6 Portrait, mathsat, Godelian, 479
+Run threeToTwo for exactly 6 Portrait, mathsat, Godelian, 482
+Run threeToTwo for exactly 6 Portrait, mathsat, Godelian, 500
+Run threeToTwo for exactly 6 Portrait, mathsat, Godelian, 480
+Run threeToTwo for exactly 6 Portrait, mathsat, Godelian, 484
+Check invProportionality for 4 Portrait, mathsat, Godelian, 181
+Check invProportionality for 4 Portrait, mathsat, Godelian, 187
+Check invProportionality for 4 Portrait, mathsat, Godelian, 178
+Check invProportionality for 4 Portrait, mathsat, Godelian, 181
+Check invProportionality for 4 Portrait, mathsat, Godelian, 181
+Run threeToTwo for exactly 6 Portrait, mathsat, Lukasiewicz, 487
+Run threeToTwo for exactly 6 Portrait, mathsat, Lukasiewicz, 496
+Run threeToTwo for exactly 6 Portrait, mathsat, Lukasiewicz, 483
+Run threeToTwo for exactly 6 Portrait, mathsat, Lukasiewicz, 484
+Run threeToTwo for exactly 6 Portrait, mathsat, Lukasiewicz, 488
+Check invProportionality for 4 Portrait, mathsat, Lukasiewicz, 151
+Check invProportionality for 4 Portrait, mathsat, Lukasiewicz, 150
+Check invProportionality for 4 Portrait, mathsat, Lukasiewicz, 149
+Check invProportionality for 4 Portrait, mathsat, Lukasiewicz, 145
+Check invProportionality for 4 Portrait, mathsat, Lukasiewicz, 153
+Run threeToTwo for exactly 6 Portrait, mathsat, Product, 502
+Run threeToTwo for exactly 6 Portrait, mathsat, Product, 479
+Run threeToTwo for exactly 6 Portrait, mathsat, Product, 500
+Run threeToTwo for exactly 6 Portrait, mathsat, Product, 491
+Run threeToTwo for exactly 6 Portrait, mathsat, Product, 476
+Check invProportionality for 4 Portrait, mathsat, Product, 163
+Check invProportionality for 4 Portrait, mathsat, Product, 156
+Check invProportionality for 4 Portrait, mathsat, Product, 154
+Check invProportionality for 4 Portrait, mathsat, Product, 152
+Check invProportionality for 4 Portrait, mathsat, Product, 164
+Run threeToTwo for exactly 6 Portrait, cvc4, Godelian, 3941
+Run threeToTwo for exactly 6 Portrait, cvc4, Godelian, 3907
+Run threeToTwo for exactly 6 Portrait, cvc4, Godelian, 3869
+Run threeToTwo for exactly 6 Portrait, cvc4, Godelian, 3911
+Run threeToTwo for exactly 6 Portrait, cvc4, Godelian, 3896
+Check invProportionality for 4 Portrait, cvc4, Godelian, 62350
+Check invProportionality for 4 Portrait, cvc4, Godelian, 61249
+Check invProportionality for 4 Portrait, cvc4, Godelian, 61425
+Check invProportionality for 4 Portrait, cvc4, Godelian, 62349
+Check invProportionality for 4 Portrait, cvc4, Godelian, 62474
+Run threeToTwo for exactly 6 Portrait, cvc4, Lukasiewicz, 3990
+Run threeToTwo for exactly 6 Portrait, cvc4, Lukasiewicz, 3893
+Run threeToTwo for exactly 6 Portrait, cvc4, Lukasiewicz, 3890
+Run threeToTwo for exactly 6 Portrait, cvc4, Lukasiewicz, 3928
+Run threeToTwo for exactly 6 Portrait, cvc4, Lukasiewicz, 3914
+Check invProportionality for 4 Portrait, cvc4, Lukasiewicz, 2006
+Check invProportionality for 4 Portrait, cvc4, Lukasiewicz, 2065
+Check invProportionality for 4 Portrait, cvc4, Lukasiewicz, 2053
+Check invProportionality for 4 Portrait, cvc4, Lukasiewicz, 2055
+Check invProportionality for 4 Portrait, cvc4, Lukasiewicz, 2056
+Run threeToTwo for exactly 6 Portrait, cvc4, Product, 3991
+Run threeToTwo for exactly 6 Portrait, cvc4, Product, 3871
+Run threeToTwo for exactly 6 Portrait, cvc4, Product, 3936
+Run threeToTwo for exactly 6 Portrait, cvc4, Product, 3962
+Run threeToTwo for exactly 6 Portrait, cvc4, Product, 3888
+Check invProportionality for 4 Portrait, cvc4, Product, 5319
+Check invProportionality for 4 Portrait, cvc4, Product, 5272
+Check invProportionality for 4 Portrait, cvc4, Product, 5326
+Check invProportionality for 4 Portrait, cvc4, Product, 5257
+Check invProportionality for 4 Portrait, cvc4, Product, 5338
+Run threeToTwo for exactly 6 Portrait, yices, Godelian, 316
+Run threeToTwo for exactly 6 Portrait, yices, Godelian, 316
+Run threeToTwo for exactly 6 Portrait, yices, Godelian, 307
+Run threeToTwo for exactly 6 Portrait, yices, Godelian, 321
+Run threeToTwo for exactly 6 Portrait, yices, Godelian, 311
+Check invProportionality for 4 Portrait, yices, Godelian, 209
+Check invProportionality for 4 Portrait, yices, Godelian, 199
+Check invProportionality for 4 Portrait, yices, Godelian, 197
+Check invProportionality for 4 Portrait, yices, Godelian, 201
+Check invProportionality for 4 Portrait, yices, Godelian, 199
+Run threeToTwo for exactly 6 Portrait, yices, Lukasiewicz, 335
+Run threeToTwo for exactly 6 Portrait, yices, Lukasiewicz, 352
+Run threeToTwo for exactly 6 Portrait, yices, Lukasiewicz, 311
+Run threeToTwo for exactly 6 Portrait, yices, Lukasiewicz, 315
+Run threeToTwo for exactly 6 Portrait, yices, Lukasiewicz, 311
+Check invProportionality for 4 Portrait, yices, Lukasiewicz, 720
+Check invProportionality for 4 Portrait, yices, Lukasiewicz, 686
+Check invProportionality for 4 Portrait, yices, Lukasiewicz, 686
+Check invProportionality for 4 Portrait, yices, Lukasiewicz, 703
+Check invProportionality for 4 Portrait, yices, Lukasiewicz, 712
+Run threeToTwo for exactly 6 Portrait, yices, Product, 307
+Run threeToTwo for exactly 6 Portrait, yices, Product, 316
+Run threeToTwo for exactly 6 Portrait, yices, Product, 329
+Run threeToTwo for exactly 6 Portrait, yices, Product, 316
+Run threeToTwo for exactly 6 Portrait, yices, Product, 314
+Check invProportionality for 4 Portrait, yices, Product, 144
+Check invProportionality for 4 Portrait, yices, Product, 142
+Check invProportionality for 4 Portrait, yices, Product, 144
+Check invProportionality for 4 Portrait, yices, Product, 142
+Check invProportionality for 4 Portrait, yices, Product, 144
