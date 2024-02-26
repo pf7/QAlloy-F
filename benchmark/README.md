@@ -6,7 +6,7 @@ The benchmark is performed against every SMT solver supported (Z3, MathSAT, CVC4
 
 ## Usage
 
-To run the benchmark, first place the QAlloy-F JAR (e.g. the one provided at [here](https://github.com/pf7/QAlloy-F/releases/tag/v1.0.0)) in the current folder, then execute the ```benchmark.sh``` script as follows:
+To run the benchmark, first place the QAlloy-F JAR (e.g. the one provided [here](https://github.com/pf7/QAlloy-F/releases/tag/v1.0.0)) in the current folder, then execute the ```benchmark.sh``` script as follows:
 ```
 ./benchmark.sh -n 3 -t 60000 heater.als portrait.als
 ```
