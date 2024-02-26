@@ -18,6 +18,6 @@ Currently the prototype does not support every single possible configuration, bu
 - ```AggMethod``` should coincide with ```OrMethod```.
 - Both implication methods (```ImpMethod='min'``` or ```='prod'```) are supported.
 - Its rule base must be AND-based (i.e., the antecedent of every rule is connected through fuzzy logic 'And').
-- Membership functions currently supported: triangular ```trimf```, trapezoidal ```trapmf```, linear z-shape ```linzmf``` and linear s-shape ```linsmf```.
+- Membership functions currently supported: triangular ```trimf```, trapezoidal ```trapmf```, linear Z-shape ```linzmf``` and linear S-shape ```linsmf```.
 - The parameters of the specified membership functions must be within the respective variable's range. For example, if a variable is declared with range ```[10,30]```, the membership function ```trimf[0 5 15]``` is not allowed.
 
