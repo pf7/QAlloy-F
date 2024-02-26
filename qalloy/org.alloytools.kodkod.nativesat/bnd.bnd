@@ -1,0 +1,2 @@
+-sub: *.bnd
+-includeresource: cvc4=bin/cvc4, z3=bin/z3, mathsat=bin/mathsat, yices=bin/yices
