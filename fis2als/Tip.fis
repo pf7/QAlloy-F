@@ -1,0 +1,41 @@
+[System]
+Name='tipSugeno'
+Type='sugeno'
+Version=2.0
+NumInputs=2
+NumOutputs=1
+NumRules=3
+AndMethod='min'
+OrMethod='max'
+ImpMethod='prod'
+AggMethod='sum'
+DefuzzMethod='wtaver'
+
+[Input1]
+Name='Service'
+Range=[0 1]
+NumMFs=3
+MF1='poor':'linzmf',[0.1 0.3]
+MF2='good':'trapmf',[0.2 0.4 0.6 0.8]
+MF3='excellent':'linsmf',[0.7 0.9]
+
+[Input2]
+Name='Food'
+Range=[0 1]
+NumMFs=3
+MF1='rancid':'linzmf',[0 0.3]
+MF2='average':'trimf',[0.25 0.5 0.75]
+MF3='delicious':'linsmf',[0.7 1]
+
+[Output1]
+Name='Tip'
+Range=[0 1]
+NumMFs=3
+MF1='cheap':'constant',[0]
+MF2='average':'linear',[1 0 0]
+MF3='generous':'linear',[0.4 0.4 0.2]
+
+[Rules]
+1 1, 1 (1) : 2
+2 0, 2 (1) : 2
+3 3, 3 (1) : 2
