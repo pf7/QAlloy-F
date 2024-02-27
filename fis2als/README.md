@@ -23,4 +23,5 @@ Currently the prototype does not support every single possible configuration, bu
 - Membership functions currently supported: triangular ```trimf```, trapezoidal ```trapmf```, linear Z-shape ```linzmf``` and linear S-shape ```linsmf```.
 - For the output variables of Sugeno, both ```constant``` and ```linear``` functions are supported.
 - The parameters of the specified membership functions must be within the respective variable's range. For example, if a variable is declared with range ```[10,30]```, the membership function ```trimf[0 5 15]``` is not allowed.
+- The defuzzification method of a Mamdani FIS is assumed to be a variant of *maximum*, while the *weighted average* is considered for a Sugeno FIS.
 
