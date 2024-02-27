@@ -22,7 +22,7 @@ one sig Tip{
 
 sig Rule{}
 fact{ all r : Rule | some R.r }
-one sig r1 extends Rule{}
+one sig rule1 extends Rule{}
 
 fact fuzzification{
 	fuzzyS =
@@ -76,7 +76,7 @@ fun defuzzification : Tip {
 }
 
 fun toTip[rs : Rule] : Tip {
-	(Tip -> rs).r1
+	(Tip -> rs).rule1
 }
 
 run findGenerousTip {
