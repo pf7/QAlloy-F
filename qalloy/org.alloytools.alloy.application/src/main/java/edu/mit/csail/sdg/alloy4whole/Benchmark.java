@@ -38,7 +38,7 @@ public class Benchmark {
     }
 
     // Directory where the benchmark will be written
-    private static final String benchmark = "." + File.separatorChar + "times";
+    private static final String benchmark = "." + File.separatorChar + "results";
 
     /**
      * Writes the results of solving the specified command according to the

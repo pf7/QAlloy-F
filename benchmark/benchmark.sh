@@ -55,6 +55,3 @@ shift $(($OPTIND - 1))
 #echo "$@"
 
 java -cp ${JAR} edu.mit.csail.sdg.alloy4whole.Benchmark ${N} ${T} "$@"
-mkdir -p results
-mv times/* results
-rm -r times/

@@ -25,12 +25,16 @@ import kodkod.instance.Instance;
 import kodkod.instance.Tuple;
 import kodkod.instance.TupleSet;
 
+/**
+ * Quantitative extension: Updated TABLE_P and toTable methods to properly represent tuples with
+ * quantities associated in Table format.
+ */
 public class TableView {
 
     final static String  SUPERSCRIPTS = "⁰¹²³⁴⁵⁶⁷⁸⁹";
     final static String  SUBSCRIPTS   = "₀₁₂₃₄₅₆₇₈₉";
     final static String  BOX_SINGLE   = "│┌─┬┐┘┴└├┼┤";
-    final static Pattern TABLE_P      = Pattern.compile("\\s*\\{(([\\d\\w$\\s,>\"-]+))\\}\\s*");
+    final static Pattern TABLE_P      = Pattern.compile("\\s*\\{(([\\d\\w$\\s,>\"-.]+))\\}\\s*");
 
     public static boolean isTable(String input) {
         return TABLE_P.matcher(input).matches();
@@ -43,12 +47,24 @@ public class TableView {
 
         List<SimTuple> l = new ArrayList<>();
         for (String tuple : clauses) {
-            String strings[] = tuple.split("\\s*->\\s*");
+            String strings[] = tuple.split("\\s*(->|\\*\\*)\\s*");
             List<SimAtom> atoms = new ArrayList<>();
+            // Non-null if the string is a number
+            SimAtom quantity = null;
             for (String string : strings) {
                 SimAtom atom = SimAtom.make(string);
-                atoms.add(atom);
+                // Check if it is a number
+                try {
+                    Double.parseDouble(string);
+                    quantity = atom;
+                } catch(NumberFormatException e){
+                    // do nothing
+                    atoms.add(atom);
+                }
             }
+            // append the quantity to the end
+            if(quantity != null)
+                atoms.add(quantity);
 
             l.add(SimTuple.make(atoms));
         }

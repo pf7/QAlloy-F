@@ -10,23 +10,25 @@ fun singleton[x, a : A] : A {
 }
 
 // triangle(x ; a, b, c) = max(min(x-a / b-a, c-x /c-b), 0)
+//                       = min(x-a / b-a, c-x /c-b) // Bounded
 fun triangle[a, b, c : A] : A {
-	let x = (drop C).(C -> drop a) |
-		larger[smaller[div[sub[x, a], sub[b, a]], div[sub[c, x], sub[c, b]]] , 0 ** A]
+	let type = drop b, x = (drop C).(C -> type) |
+		smaller[div[sub[x, a], sub[b, a]], div[sub[c, x], sub[c, b]]]
 }
 
 fun triangle[x, a, b, c : A] : A {
-	larger[smaller[div[sub[x, a], sub[b, a]], div[sub[c, x], sub[c, b]]] , 0 ** A]
+	smaller[div[sub[x, a], sub[b, a]], div[sub[c, x], sub[c, b]]]
 }
 
 // trapezoidal(x; a, b, c, d) = max(min(x-a / b-a, 1, d-x / d-c), 0)
+//                            = min(x-a / b-a, d-x / d-c) // Bounded
 fun trapezoid[a, b, c, d : A] : A {
-	let type = drop a, x = (drop C).(C -> type) |
-		larger[smaller[smaller[div[sub[x, a], sub[b,a]], div[sub[d,x], sub[d,c]]], 1 ** type], 0 ** type]
+	let type = drop b, x = (drop C).(C -> type) |
+		smaller[div[sub[x, a], sub[b,a]], div[sub[d,x], sub[d,c]]]
 }
 
 fun trapezoid[x, a, b, c, d : A] : A {
-	let type = drop a | larger[smaller[smaller[div[sub[x, a], sub[b,a]], div[sub[d,x], sub[d,c]]], 1 ** type], 0 ** type]
+	smaller[div[sub[x, a], sub[b,a]], div[sub[d,x], sub[d,c]]]
 }
 
 // linear z-shape
